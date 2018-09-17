@@ -16,8 +16,8 @@ to obtain a reproducible sample sound.
 <br>
 
 ![Combined PCB](https://lh4.googleusercontent.com/zN66PAMItP_rDG18cisizgsfsCCqbdf59rprV98uO9yxnuE1U9MlEte0zNXKaSZXPfHNi0DRoEnNs4tTG5iHXWZ8HDsdYnd6V0efm7bl6hoF3Kk_fnUO6ZeWPnVLayO17gGP66wt)
-Combined PCB
+<br>Combined PCB
 
 
 ![Data Flow Diagram](https://i.imgur.com/aenhlT1.png)
-Data Flow Diagram
+<br>Data Flow Diagram
