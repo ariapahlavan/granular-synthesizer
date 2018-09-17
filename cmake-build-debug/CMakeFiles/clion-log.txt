@@ -1,0 +1,40 @@
+"/Users/ariapahlavan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/local/Cellar/gcc/7.3.0/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/local/Cellar/gcc/7.3.0/bin/g++-7 -G "CodeBlocks - Unix Makefiles" /Users/ariapahlavan/temporary/granular-synthesizer
+-- The C compiler identification is unknown
+-- Check for working C compiler: /usr/local/Cellar/gcc/7.3.0/bin/gcc-7
+-- Check for working C compiler: /usr/local/Cellar/gcc/7.3.0/bin/gcc-7 -- broken
+CMake Error at /Users/ariapahlavan/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/CLion.app/Contents/bin/cmake/mac/share/cmake-3.12/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/usr/local/Cellar/gcc/7.3.0/bin/gcc-7"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/ariapahlavan/temporary/granular-synthesizer/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/usr/bin/make" "cmTC_35191/fast"
+    /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_35191.dir/build.make CMakeFiles/cmTC_35191.dir/build
+    Building C object CMakeFiles/cmTC_35191.dir/testCCompiler.c.o
+    /usr/local/Cellar/gcc/7.3.0/bin/gcc-7    -o CMakeFiles/cmTC_35191.dir/testCCompiler.c.o   -c /Users/ariapahlavan/temporary/granular-synthesizer/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    dyld: Library not loaded: /usr/local/opt/isl/lib/libisl.15.dylib
+      Referenced from: /usr/local/Cellar/gcc/7.3.0/libexec/gcc/x86_64-apple-darwin17.3.0/7.3.0/cc1
+      Reason: image not found
+    gcc-7: internal compiler error: Abort trap: 6 (program cc1)
+    Please submit a full bug report,
+    with preprocessed source if appropriate.
+    See <https://github.com/Homebrew/homebrew-core/issues> for instructions.
+    make[1]: *** [CMakeFiles/cmTC_35191.dir/testCCompiler.c.o] Error 4
+    make: *** [cmTC_35191/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/ariapahlavan/temporary/granular-synthesizer/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/ariapahlavan/temporary/granular-synthesizer/cmake-build-debug/CMakeFiles/CMakeError.log".
