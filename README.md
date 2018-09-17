@@ -1,4 +1,4 @@
-# lab11-ap44342_my5429
+# Granular Synthesizer
 ![demo](https://ariapahlavan.com/assets/granularsunth.png)
 
 <br>
